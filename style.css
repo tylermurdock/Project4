@@ -1,0 +1,51 @@
+html, body{
+	height: 100%;
+	background-color: #005AA3;
+}
+
+.top-bar {
+	height: 50px;
+    background-color: #034F8D;
+}
+
+.white-body {
+	background-color: white;
+	height: 80%;
+	margin: 40px auto;
+	width: 90%;
+	max-width: 900px;
+}
+
+.menu-parent{
+	padding: 10px;
+	display: flex;
+}
+
+.menu-parent {
+	width: 100%;
+}
+
+
+.menu-line {
+	display: inline-block;
+    padding-top: 30px;
+    font-size: 22px;
+    margin-left: 50px;
+}
+
+.first-picture {
+	width: 100%;
+	margin: 20px auto;
+}
+
+
+@media (max-width: 500px) {
+	.menu-line {
+		display: none;
+	}
+}
+
+
+.image {
+	width: 100%;
+}
